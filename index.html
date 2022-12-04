@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Food</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="meal-wrapper">
+				<div class="mear-search">
+					<h2 class="title">Meals For Your Ingradients</h2>
+					<blockquote>
+						Real food doesn't have ingredients, real food is ingredients.
+						<cite>- Jamie Olive</cite>
+					</blockquote>
+
+					<div class="meal-search-box">
+						<input
+							class="search-control"
+							placeholder="Enter an ingredient"
+							id="search-input"
+							type="text"
+						/>
+						<button class="search-btn btn" id="search-btn" type="submit">
+							<i class="fas fa-search"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="meal-results">
+					<h2 class="title">Your Search Results:</h2>
+					<div id="meal">
+						<!-- meal item -->
+						<!-- <div class="meal-item">
+							<div class="meal-img">
+								<img
+									src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?cs=srgb&dl=pexels-pixabay-461198.jpg&fm=jpg"
+									alt="meal"
+								/>
+							</div>
+							<div class="meal-name">
+								<h3>Potato Chips</h3>
+								<a class="recipe-btn" href="#">Get Recipe</a>
+							</div>
+						</div> -->
+						<!-- end of meal item -->
+					</div>
+				</div>
+
+				<div class="meal-details">
+					<button
+						class="btn recipe-close-btn"
+						id="recipe-close-btn"
+						type="button"
+					>
+						<i class="fas fa-times"></i>
+					</button>
+
+					<div class="meal-details-content">
+						<!-- <h2 class="recipe-title">Meals Name Here</h2>
+						<p class="recipe-category">Category Name</p>
+						<div class="recipe-instruct">
+							<h3>Instructions:</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Accusamus iste, quo dolor commodi rem consequuntur soluta hic
+								optio excepturi ab, cumque neque facere quod molestiae? Eius
+								eveniet optio atque officia!
+							</p>
+						</div>
+						<div class="recipe-meal-img">
+							<img
+								src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?cs=srgb&dl=pexels-pixabay-461198.jpg&fm=jpg"
+								alt="meal"
+							/>
+						</div>
+						<div class="recipe-link">
+							<a href="#" target="_blank">Watch Video</a>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
